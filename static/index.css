@@ -1,0 +1,11 @@
+#table {
+    width: 100%;
+    border: black 3px;
+    margin: auto;
+    padding: 10px;
+}
+
+.buttons {
+    margin: auto;
+    padding: 10px;
+}
