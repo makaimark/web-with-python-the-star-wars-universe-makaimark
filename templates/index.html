@@ -23,9 +23,29 @@
 <body>
 <h1>Star Wars universe planets</h1>
 <div class="buttons">
-    <button type="button" class="btn btn-primary" id="previous">Previous</button>
-    <button type="button" class="btn btn-primary" id="next">Next</button>
+    <a href="#" class="btn btn-info" role="button" id="previous">Previous</a>
+    <a href="#" class="btn btn-info" role="button" id="next">Next</a>
 </div>
+
+<!-- Modal to new board-->
+<div class="modal fade" id="residentsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Type the name of the new board</h4>
+            </div>
+            <div class="modal-body">
+                <p>Here will comes the infos about the residents</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="container">
     <div class="data_table">
         <table id="table">
@@ -40,9 +60,6 @@
                 <td>Residence</td>
             </tr>
         </table>
-        <div>
-            <p id="demo"></p>
-        </div>
     </div>
 </div>
 

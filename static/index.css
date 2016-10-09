@@ -1,8 +1,14 @@
-#table {
+table, td, th {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+table {
     width: 100%;
-    border: black 3px;
-    margin: auto;
-    padding: 10px;
+}
+
+#header {
+    font-weight: bold;
 }
 
 .buttons {
